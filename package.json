@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,6 @@
     "url": "git+https://github.com/Mohadeseasadi/Wallet.git"
   },
   "keywords": [],
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Mohadeseasadi/Wallet/issues"
   },
@@ -21,8 +21,11 @@
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.4.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^7.0.2"
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
@@ -32,6 +35,7 @@
     "jsonwebtoken": "^9.0.3",
     "pg": "^8.23.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.8"
+    "sequelize": "^6.37.8",
+    "tsconfig-paths": "^4.2.0"
   }
 }
